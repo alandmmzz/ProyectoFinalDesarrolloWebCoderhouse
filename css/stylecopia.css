@@ -1,0 +1,275 @@
+
+body {
+    height: 200vh;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    margin: 0;
+    font-size: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logoContainer {
+    margin: 0;
+    padding: 5px;
+    font-size: 0;
+    display: inline-block;
+    width: 10%;
+    height: 85%;
+    vertical-align: middle;
+}
+
+nav {
+    width: 85%;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: center;
+    font-size: 0;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+li {
+    width: 15%;
+    list-style: none;
+    margin-left: 2vh;
+    margin-right: 1vh;
+    display: inline-block;
+}
+
+nav ul li div {
+    height: 90%;
+    width: 100%;
+    text-decoration: none;
+    background-color: #57777B;
+    border-radius: 20px;
+}
+
+nav ul li div a {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    text-decoration: none;
+    font-size: 3vh;
+    vertical-align: middle;
+    color: white;
+    overflow: hidden;
+}
+
+/* MAIN CONTENT */
+
+main {
+    width: 100%;
+    height: 184vh;
+    background-color: white;
+    font-size: 0;
+}
+
+main div {
+    margin: 0;
+    padding: 0;
+    height: 92vh;
+}
+
+.mainLeft {
+    width: 50%;
+    height: 100%;
+    background-color: #57777B;
+    display: inline-block;
+    margin: 0;
+    font-size: 0;
+}
+
+.mainRight {
+    width: 50%;
+    height: 100%;
+    background-color: #57777B;
+    display: inline-block;
+    margin: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.mainPic {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.mainRight span {
+    font-family: "Caprasimo";
+    font-size: 8vh;
+    color: white;
+    position: absolute;
+    top: 45vh;
+    height: 12vh;
+    margin: 2vh;
+    background-color: #57777B;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.mainLeft span {
+    font-family: "Caprasimo";
+    font-size: 8vh;
+    color: white;
+    text-align: end;
+    position: absolute;
+    right: 50%;
+    top: 130vh;
+    vertical-align: middle;
+    height: 12vh;
+    background-color: #57777B;
+    display: inline-block;
+    margin: 2vh;
+}
+
+/* OTHER PAGES */
+
+.sectionTitle {
+    background-color: #57777B;
+    height: 12vh;
+    margin-bottom: 2vh;
+}
+
+.sectionTitle p {
+    font-family: "Caprasimo";
+    font-size: 10vh;
+    padding-left: 4vh;
+    color: white;
+    position: absolute;
+}
+
+.sectionFirstContent {
+    background-color: #57777B;
+    height: 36vh;
+    margin-bottom: 2vh;
+}
+
+.sectionFirstContent p {
+    font-family: "Arial";
+    font-size: 6vh;
+    padding-left: 4vh;
+    padding-top: 4vh;
+    color: white;
+    position: absolute;
+}
+
+.sectionSecondContent {
+    background-color: #57777B;
+    height: 132vh;
+    margin-bottom: 2vh;
+    font-size: 0;
+    padding: 2vh;
+}
+
+table {
+    height: 114vh;
+    width: 100%;
+    margin-top: 4vh;
+}
+
+table thead {
+    height: 10vh;
+    width: 100%;
+    font-family: "Arial";
+    font-size: 8vh;
+    padding: 4vh;
+    color: white;
+}
+
+table tbody {
+    height: 10vh;
+    width: 100%;
+    font-family: "Arial";
+    font-size: 6vh;
+    text-align: center;
+    padding: 4vh;
+    color: white;
+}
+
+/* FORM */
+
+.sectionSecondContent form {
+    height: 90%;
+    width: 80%;
+    position: relative;
+    left: 18vh;
+    padding: 4vh;
+    background-color: #6f8a8d;
+    font-size: 0;
+    border-radius: 20px;
+}
+
+.sectionSecondContent form div {
+    height: 8%;
+    width: 52%;
+    background-color: #849da0;
+    margin: 2vh;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 22%;
+}
+
+.formStyle {
+    display: inline-block;
+    font-size: 4vh;
+    margin: 2vh;
+}
+
+.submitButton {
+    width: 30%;
+    height: 50%;
+    left: 20%;
+    border-radius: 20px;
+    margin-top: 2vh;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    font-size: 0;
+}
+
+footer a {
+    width: 15%;
+    height: 100%;
+    color: #849da0;
+    text-decoration: none;
+    position: relative;
+    left: 20vh;
+    text-align: center;
+    font-size: 3vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+footer p {
+    width: 15%;
+    height: 100%;
+    color: #849da0;
+    text-decoration: none;
+    position: relative;
+    left: 20vh;
+    text-align: center;
+    font-size: 3vh;
+    display: inline-block;
+    overflow: hidden;
+}
