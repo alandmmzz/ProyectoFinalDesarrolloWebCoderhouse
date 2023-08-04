@@ -3,35 +3,71 @@
     src: url(../assets/fonts/Caprasimo-Regular.ttf);
 }
 
+.caprasimo {
+    font-family: 'Caprasimo';
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    height: 180vh;
     width: 100%;
     margin: 0;
-    background-color: antiquewhite;
 }
 
 body header {
-    height: 8vh;
     margin: 0;
     padding: 0;
-    background-color: aquamarine;
 }
 
-
 body main {
-    height: 164vh;
     margin: 0;
     padding: 0;
+}
+
+.mainTitle {
+    color: white;
+}
+
+.mainBox {
+    background-color: #AFCB60;
+}
+
+.secondBox {
+    background-color: #ececec;
 }
 
 body footer {
-    height: 8vh;
     margin: 0;
     padding: 0;
-    background-color: darkgray;
+}
+
+.footerBox {
+    background-color: #AFCB60;
+    color: white;
+    text-decoration: none;
+}
+
+.footerBox div ul li {
+    list-style-type: none;
+}
+
+.footerBox div ul li a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+
+
+.navItem {
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+.mainItem {
+    font-size: 6px;
 }
