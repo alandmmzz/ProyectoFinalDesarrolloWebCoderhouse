@@ -9,80 +9,78 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="./assets/images/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
-    <title>My project</title>
+    <title>Nirvana</title>
   </head>
   <body>
-    <header class="sticky-top border-bottom border-secondary">
+    <header class="sticky-top border-bottom">
       <div class="row h-100 m-0">
         <div
-          class="col-4 col-lg-2 d-flex bg-light gap-2 justify-content-evenly align-items-center"
+          class="col-8 col-xl-3 d-flex bg-light gap-2 justify-content-start align-items-center"
         >
           <img
-            class="img-fluid p-1 w-25"
-            src="./assets/images/Logo.png"
+            class="img-fluid h-100 p-1 m-xl-2"
+            src="./assets/images/LogoGreen.png"
             alt="Logo"
           />
-          <p class="caprasimo mainTitle align-self-center m-0">Nombre</p>
+          <p class="caprasimo headerTitle align-self-center m-0">Nirvana</p>
         </div>
         <div
-          class="col-10 d-none d-lg-block p-2 bg-light d-lg-flex align-items-center justify-content-end gap-4"
+          class="col-9 d-none d-xl-block p-2 pe-4 bg-light d-xl-flex align-items-center justify-content-end gap-4"
         >
-          <a class="navItem" href="">Home</a>
-          <a class="navItem">Agendate ya</a>
-          <a class="navItem">Quienes somos</a>
-          <a class="navItem">Nuestros profesionales</a>
-          <a class="navItem">Más información</a>
+          <a class="navItem opacity-50" href="./index.html">Home</a>
+          <a class="navItem" href="./pages/schedule.html">Agendate ya</a>
+          <a class="navItem" href="./pages/information.html">Quienes somos</a>
+          <a class="navItem" href="./pages/professionals.html">Tienda Online</a>
+          <a class="navItem" href="./pages/contact.html">Contacto</a>
         </div>
         <div
-          class="col-8 d-lg-none p-2 bg-light d-flex align-items-center justify-content-end gap-4"
+          class="col-4 d-xl-none p-2 bg-light d-flex align-items-center justify-content-end gap-4"
         >
-          <div class="dropdown">
-            <button
-              class="btn btn-light btn-sm dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Agendate ya</a></li>
-              <li><a class="dropdown-item" href="#">Quienes somos</a></li>
-              <li>
-                <a class="dropdown-item" href="#">Nuestros profesionales</a>
-              </li>
-              <li><a class="dropdown-item" href="#">Más información</a></li>
-            </ul>
-          </div>
+          <button
+            class="btn btn-light rounded-pill me-2 d-flex"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <img src="./assets/images/three-bars.svg" alt="" />
+          </button>
         </div>
       </div>
     </header>
     <main>
       <!-- First Row -->
       <div class="row w-100 m-0">
-        <div class="col col-lg-6 p-0">
+        <div class="col col-md-6 card mainImage p-0">
           <img
-            class="img-fluid h-100 w-100"
+            class="card-img mainImage"
             src="./assets/images/YOGAAIRELIBRE.jpg"
             alt="Yoga1"
           />
+          <div class="card-img-overlay d-md-none">
+            <p class="card-text caprasimo fs-1 mainTitle m-0 pt-1">Animate.</p>
+            <p class="card-text caprasimo fs-sm-4 mainTitle">
+              Cambiá tu estilo de vida.
+            </p>
+          </div>
         </div>
         <div
-          class="mainBox col-md-6 d-none d-lg-block d-lg-flex align-items-center justify-content-start"
+          class="mainBox col-md-6 d-none d-md-block d-md-flex align-items-center justify-content-start"
         >
-          <p class="caprasimo mainTitle fs-1">Animate.
-            <br>
-            Mejorá tu estilo de vida.
-          </br>
+          <p class="caprasimo mainTitle fs-1">
+            Animate.
+            <br />
+            Cambiá tu estilo de vida.
           </p>
         </div>
       </div>
       <!-- Grid -->
       <div class="row bg-light d-flex justify-content-center w-100 m-0">
-        <div class="secondBox rounded col-10 col-lg-8 m-5">
-          <div class="container-fluid p-4">
-            <h3 class="fw-bold">Nuestros servicios</h3>
+        <div class="secondBox rounded col-10 col-lg-8 m-4 pt-2">
+          <div class="container-fluid p-0 p-sm-2">
+            <h3 class="fw-bold">Nuestros servicios:</h3>
             <div
               id="carouselExampleSlidesOnly"
               class="carousel slide"
@@ -96,7 +94,7 @@
                     alt="..."
                   />
                   <div class="card-img-overlay">
-                    <h1 class="card-title fw-bold p-3">Card title</h1>
+                    <h1 class="card-title fw-bold p-2 p-sm-3">Yoga</h1>
                     <p class="card-text d-none d-md-block p-3">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -111,7 +109,7 @@
                     alt="..."
                   />
                   <div class="card-img-overlay">
-                    <h1 class="card-title fw-bold p-3">Card title</h1>
+                    <h1 class="card-title fw-bold p-2 p-sm-3">Meditación</h1>
                     <p class="card-text d-none d-md-block p-3">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -126,7 +124,9 @@
                     alt="..."
                   />
                   <div class="card-img-overlay">
-                    <h1 class="card-title fw-bold p-3">Card title</h1>
+                    <h1 class="card-title fw-bold p-2 p-sm-3">
+                      Registros akashicos
+                    </h1>
                     <p class="card-text d-none d-md-block p-3">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -147,7 +147,7 @@
           </div>
         </div>
       </div>
-      <div class="row bg-dark w-100 m-0">
+      <div class="row w-100 m-0">
         <div
           class="col-6 col-md-3 bg-light d-flex flex-column justify-content-center p-5"
         >
@@ -194,9 +194,50 @@
         </div>
       </div>
     </main>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header d-flex justify-content-end m-2">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between disabled">
+            Home
+            <a href="./index.html"></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Agendate ya
+            <a href="./pages/schedule.html"><img src="./assets/images/arrow-right.svg" alt="" /></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Quienes somos
+            <a href="./pages/information.html"><img src="./assets/images/arrow-right.svg" alt="" /></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Tienda online
+            <a href="./pages/professionals.html"><img src="./assets/images/arrow-right.svg" alt="" /></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Contacto
+            <a href="./pages/contact.html"><img src="./assets/images/arrow-right.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer>
       <div class="footerBox row m-0 p-2 w-100">
-        <div class="col-4 d-flex justify-content-center border-end border-light p-1 p-md-5">
+        <div
+          class="col-4 d-flex justify-content-center border-end border-light p-1 p-md-5"
+        >
           <ul class="p-0 m-0">
             <li><p class="fw-semibold">Contacto</p></li>
             <li><a class="" href="">Home</a></li>
@@ -204,7 +245,9 @@
             <li><a class="" href="">Home</a></li>
           </ul>
         </div>
-        <div class="col-4 d-flex justify-content-center border-end border-light p-1 p-md-5">
+        <div
+          class="col-4 d-flex justify-content-center border-end border-light p-1 p-md-5"
+        >
           <ul class="p-0 m-0">
             <li><p class="fw-semibold">Contacto</p></li>
             <li><a class="" href="">Home</a></li>

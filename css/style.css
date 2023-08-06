@@ -18,8 +18,14 @@ body {
 }
 
 body header {
+    background-color: white;
     margin: 0;
     padding: 0;
+}
+
+.headerTitle {
+    color: #AFCB60;
+    font-size: 1.6rem;
 }
 
 body main {
@@ -39,6 +45,10 @@ body main {
     background-color: #ececec;
 }
 
+.mainImage {
+    border-radius: 0%;
+    border-width: 0;
+}
 body footer {
     margin: 0;
     padding: 0;
@@ -64,7 +74,7 @@ body footer {
 
 .navItem {
     color: rgb(0, 0, 0);
-    font-size: 3vh;
+    font-size: 1.5vw;
     text-decoration: none;
 }
 
