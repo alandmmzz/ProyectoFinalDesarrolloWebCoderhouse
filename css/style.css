@@ -32,6 +32,12 @@ body header {
     font-size: 1.6rem;
 }
 
+.navItem {
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
 body main {
     margin: 0;
     padding: 0;
@@ -54,13 +60,16 @@ body main {
     border-width: 0;
 }
 
+.mainItem {
+    font-size: 6px;
+}
+
 .filterList li {
 list-style: none;
 }
 
 .shopItem {
-    color: black;
-    
+    color: black; 
 }
 
 .prevPrice {
@@ -91,16 +100,4 @@ body footer {
     text-decoration: none;
     color: white;
     list-style-type: none;
-}
-
-
-
-.navItem {
-    color: rgb(0, 0, 0);
-    font-size: 1.5vw;
-    text-decoration: none;
-}
-
-.mainItem {
-    font-size: 6px;
 }
