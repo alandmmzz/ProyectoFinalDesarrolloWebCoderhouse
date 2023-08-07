@@ -23,6 +23,10 @@ body header {
     padding: 0;
 }
 
+.navShop {
+    background-color: #AFCB60;
+}
+
 .headerTitle {
     color: #AFCB60;
     font-size: 1.6rem;
@@ -49,6 +53,25 @@ body main {
     border-radius: 0%;
     border-width: 0;
 }
+
+.filterList li {
+list-style: none;
+}
+
+.shopItem {
+    color: black;
+    
+}
+
+.prevPrice {
+    color: rgb(177, 177, 177);
+}
+
+.shopItem:hover {
+    color: #AFCB60;
+    
+}
+
 body footer {
     margin: 0;
     padding: 0;

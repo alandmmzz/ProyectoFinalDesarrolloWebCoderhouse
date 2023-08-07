@@ -1,94 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/style.css" />
-        <link rel="shortcut icon" href="../assets/images/favicon-16x16.png" type="image/x-icon">
-        <title>My project</title>
-      </head>
-      <body>
-        <header>
-            <div id="logoContainer">
-              <a href="../index.html">
-                <img width="30%" src="../assets/images/Logo.png" alt="" />
-              </a>
-            </div>
-            <nav id="navContainer">
-              <ul id="navList">
-                  <li>
-                    <div>
-                      <a href="../index.html">Home</a>
-                    </div>
-                  </li>
-                <li>
-                  <div>
-                    <a href="./schedule.html">Agendate</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="./information.html">Quiénes somos</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="./professionals.html">Profesionales</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="./contacto.html">Contacto</a>
-                  </div>
-                </li>
-              </ul>
-            </nav>
-          </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Nirvana</title>
+  </head>
+  <body>
+    <header class="sticky-top border-bottom">
+      <div class="row h-100 m-0">
+        <div
+          class="col-8 col-xl-3 d-flex bg-light gap-2 justify-content-start align-items-center"
+        >
+          <img
+            class="img-fluid rounded-pill h-100 p-1 m-xl-2"
+            src="../assets/images/LogoGreen.png"
+            alt="Logo"
+          />
+          <p class="caprasimo headerTitle align-self-center m-0">Nirvana</p>
+        </div>
+        <div
+          class="col-9 d-none d-xl-block p-2 pe-4 bg-light d-xl-flex align-items-center justify-content-end gap-4"
+        >
+          <a class="navItem" href="../index.html">Home</a>
+          <a class="navItem opacity-50" href="./schedule.html">Agendate ya</a>
+          <a class="navItem" href="./information.html">Quienes somos</a>
+          <a class="navItem" href="./onlineShop.html">Tienda Online</a>
+          <a class="navItem" href="./contact.html">Contacto</a>
+        </div>
+        <div
+          class="col-4 d-xl-none p-2 bg-light d-flex align-items-center justify-content-end gap-4"
+        >
+          <button
+            class="btn btn-light rounded-pill me-2 d-flex"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasHeader"
+            aria-controls="offcanvasHeader"
+          >
+            <img src="../assets/images/three-bars.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </header>
     <main>
-      <section class="sectionTitle">
-        <p class="mainTitle">Agendate</p>
-      </section>
-      <section class="sectionFirstContent">
-        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat corporis beatae omnis quod commodi delectus mollitia vel molestias fugit!</p>
-      </section>
-      <section class="sectionSecondContent">
-        <form>
-            <div>
-                <label class="formStyle" for="Name">Tu nombre: </label>
-                <input class="formStyle" type="text" name="Name">
+      <!-- Grid -->
+      <div class="row bg-light d-flex justify-content-center w-100 m-0">
+        <div class="secondBox rounded col-10 col-lg-8 m-4 p-2">
+          <div class="container-fluid p-sm-2">
+            <h3 class="fw-bold mb-3">¿Querés agendarte con nosotros?</h3>
+            <div class="row">
+              <h4 class="col-12 col-md-4 pt-2">Necesitamos tus datos:</h4>
+              <div class="col-12 col-md-8 p-0 p-2 m-0">
+                <ul class="list-group rounded list-group-flush">
+                  <li class="list-group-item">
+                    <form class="w-100">
+                      <div class="mb-3">
+                        <label for="inputName" class="form-label"
+                          >Tu nombre:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="inputName"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="inputEmail" class="form-label"
+                          >Tu dirección de correo:</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="inputEmail"
+                          aria-describedby="emailText"
+                        />
+                        <div id="emailText" class="form-text">
+                          Te enviaremos un mail de confirmación.
+                        </div>
+                      </div>
+                    </form>
+                  </li>
+                </ul>
+              </div>
+              <div class="row p-0 m-0">
+                <h4 class="col-12 col-md-4 pt-2">Seleccioná un turno:</h4>
+                <div class="col-12 col-md-8 p-2 m-0">
+                  <ul class="list-group rounded list-group-flush mb-3">
+                    <li class="list-group-item justify-content-between">
+                      <label for="inputCity" class="form-label">Ciudad:</label>
+                      <select
+                        id="inputCity"
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Seleccioná una opción</option>
+                        <option value="1">Montevideo</option>
+                        <option value="2">Maldonado</option>
+                      </select>
+                      <label for="inputBranch" class="form-label pt-2"
+                        >Sucursal:</label
+                      >
+                      <select
+                        id="inputBranch"
+                        class="form-select mb-1"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Seleccioná una opción</option>
+                        <option value="1">Carrasco</option>
+                        <option value="2">Cordón</option>
+                        <option value="3">Parque Rivera</option>
+                        <option value="4">Punta Gorda</option>
+                      </select>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                      <label for="inputActivity" class="form-label"
+                        >Actividad:</label
+                      >
+                      <select
+                        id="inputActivity"
+                        class="form-select mb-1"
+                        aria-label="Default select"
+                      >
+                        <option selected>Seleccioná una opción</option>
+                        <option value="1">Constelación familiar</option>
+                        <option value="2">Meditación guiada</option>
+                        <option value="3">Registros akashicos</option>
+                        <option value="4">Yoga</option>
+                      </select>
+                    </li>
+                    <li class="list-group-item justify-content-between pb-2">
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options-base"
+                        id="matutinoOption"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label class="btn" for="matutinoOption"
+                        >Turno matutino</label
+                      >
+
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options-base"
+                        id="vespertinoOption"
+                        autocomplete="off"
+                      />
+                      <label class="btn" for="vespertinoOption"
+                        >Turno vespertino</label
+                      >
+
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options-base"
+                        id="nocturnoOption"
+                        autocomplete="off"
+                        disabled
+                      />
+                      <label class="btn" for="nocturnoOption"
+                        >Turno nocturno</label
+                      >
+                    </li>
+                  </ul>
+                  <div class="d-flex justify-content-end m-2">
+                    <h5 class="me-3">Listo?</h5>
+                  </div>
+                  <div class="d-flex justify-content-end m-2">
+                    <button
+                      type="button"
+                      class="btn btn-light rounded-pill"
+                      disabled
+                    >
+                      Seleccioná una fecha.
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-                <label class="formStyle" for="Surname">Tu Apellido:</label>
-                <input class="formStyle" type="text" name="Surname">
-            </div>
-            <div>
-                <p class="formStyle">Matutino</p>
-                <input class="formStyle" type="radio" name="turn" value="Matutino">
-                <p class="formStyle">Vespertino</p>
-                <input class="formStyle" type="radio" name="turn" value="Vespertino">
-                <p class="formStyle">Nocturno</p>
-                <input class="formStyle" type="radio" name="turn" value="Nocturno">
-            </div>
-            <div>
-                <p class="formStyle">Centro</p>
-                <select class="formStyle" name="center" >
-                    <option value="center1">Center1</option>
-                    <option value="center2">Center2</option>
-                    <option value="center3">Center3</option>
-                </select>
-            </div>
-            <div>
-                <button class="submitButton">Submit</button>
-            </div>
-        </form>
-      </section>
+          </div>
+        </div>
+      </div>
     </main>
+    <!-- OFF CANVAS HEADER-->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasHeader"
+      aria-labelledby="#offcanvasHeader"
+    >
+      <div class="offcanvas-header d-flex justify-content-end m-2">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between">
+            Home
+            <a href="../index.html"
+              ><img src="../assets/images/arrow-right.svg" alt=""
+            /></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between disabled">
+            Agendate ya
+            <a href="./schedule.html"></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Quienes somos
+            <a href="./information.html"
+              ><img src="../assets/images/arrow-right.svg" alt=""
+            /></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Tienda online
+            <a href="./onlineShop.html"
+              ><img src="../assets/images/arrow-right.svg" alt=""
+            /></a>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Contacto
+            <a href="./contact.html"
+              ><img src="../assets/images/arrow-right.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer>
-        <a href="./schedule.html">Agendate</a>
-        <a href="./information.html">Quiénes somos</a>
-        <a href="./professionals.html">Nuestros Profesionales</a>
-        <a href="./contacto.html">Contacto y sucursales</a>
-        <p>+598 123456789</p>
-      </footer>
+      <div class="footerBox row m-0 p-2 w-100">
+        <div class="col-4 d-flex justify-content-end p-1 pe-2 p-md-4">
+          <ul class="p-0 m-0">
+            <li><p class="fw-semibold">Redes</p></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instragram</a></li>
+            <li><a href="">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="col-4 d-flex justify-content-center p-1 p-md-4">
+          <ul class="p-0 m-0">
+            <li><p class="fw-semibold">Links</p></li>
+            <li><a href="../pages/schedule.html">Agendate ya</a></li>
+            <li><a href="../pages/information.html">Información</a></li>
+            <li><a href="../pages/onlineShop.html">Tienda online</a></li>
+            <li><a href="../pages/contact.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-4 d-flex justify-content-start p-1 p-md-4">
+          <ul class="p-0 m-0">
+            <li>
+              <p class="fw-semibold">
+                Nirvana: centro de yoga <br />
+                y espiritualidad
+              </p>
+            </li>
+            <li>
+              <p href="">
+                Proyecto creado por <br />
+                Aland Martínez para CoderHouse
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
