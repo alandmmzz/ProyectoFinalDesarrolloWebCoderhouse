@@ -1,0 +1,28 @@
+@import "./variables";
+
+footer {
+    margin: 0;
+    padding: 0;
+    .footerSeparator {
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
+    }
+    .footerBox {
+        background-color: #737373;
+        color: white;
+        text-decoration: none;
+        div{
+            ul{
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+    }
+}

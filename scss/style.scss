@@ -1,0 +1,19 @@
+@import "./modules/variables";
+@import "./modules/header";
+@import "./modules/main";
+@import "./modules/footer.scss";
+
+@font-face {
+    font-family: "Caprasimo";
+    src: url(../assets/fonts/caprasimo-regular.ttf);
+}
+
+.caprasimo {
+    font-family: 'Caprasimo';
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

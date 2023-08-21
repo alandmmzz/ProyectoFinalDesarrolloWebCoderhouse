@@ -1,0 +1,40 @@
+@import "./variables";
+
+header {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.headerTitle {
+    color: #737373;
+    &:hover {
+        background: linear-gradient(-45deg, #C0D146, #FFAA5A, #FF785A, #644536, #737373, #737373);
+        -webkit-background-clip: text;
+        color: transparent;
+        background-size: 400% 400%;
+        animation: gradientLogo 15s ease infinite;
+    }
+}
+
+@keyframes gradientLogo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navItem {
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    text-decoration: none;
+    &:hover {
+        font-weight: bolder;
+        font-size: 1.4vw;
+    }
+}

@@ -1,164 +1,144 @@
-@font-face {
-    font-family: "Caprasimo";
-    src: url(../assets/fonts/caprasimo-regular.ttf);
-}
-
-.caprasimo {
-    font-family: 'Caprasimo';
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-	width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-/* HEADER */
-
-body header {
-    background-color: white;
-    margin: 0;
-    padding: 0;
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .headerTitle {
-    color: #737373;
+  color: #737373;
 }
-
 .headerTitle:hover {
-    background: linear-gradient(-45deg, #C0D146, #FFAA5A, #FF785A, #644536, #737373, #737373);
-    -webkit-background-clip: text;
-    color: transparent;
-	background-size: 400% 400%;
-	animation: gradientLogo 15s ease infinite;
+  background: linear-gradient(-45deg, #C0D146, #FFAA5A, #FF785A, #644536, #737373, #737373);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400% 400%;
+  animation: gradientLogo 15s ease infinite;
 }
 
 @keyframes gradientLogo {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 .navItem {
-    color: rgb(0, 0, 0);
-    font-size: 1.5vw;
-    text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  text-decoration: none;
 }
-
-
 .navItem:hover {
-    font-weight: bolder;
-    font-size: 1.4vw;
+  font-weight: bolder;
+  font-size: 1.4vw;
 }
 
-body main {
-    margin: 0;
-    padding: 0;
+main {
+  margin: 0;
+  padding: 0;
 }
 
 .mainTitle {
-    color: white;
+  color: white;
 }
 
 .mainTitleMD {
-    color: white;
-    background: #474747;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 2px transparent;
+  color: white;
+  background: #474747;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px transparent;
 }
 
 .gradientBox {
-	background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
-	background-size: 200% 200%;
-	animation: gradient 15s ease infinite;
+  background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
 }
 
 .secondBox {
-    background-color: #ececec;
+  background-color: #ececec;
 }
 
 .mainImage {
-    border-radius: 0%;
-    border-width: 0;
+  border-radius: 0%;
+  border-width: 0;
 }
 
 .mainItem {
-    font-size: 6px;
+  font-size: 6px;
 }
 
 .filterList li {
-list-style: none;
+  list-style: none;
 }
 
 .shopItem {
-    color: black; 
+  color: black;
 }
-
-.prevPrice {
-    color: rgb(177, 177, 177);
+.shopItem div .prevPrice {
+  color: rgb(177, 177, 177);
 }
-
 .shopItem:hover {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 .btn-gradient {
-    background: linear-gradient(white, white) padding-box,
-    linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536) border-box;
-    border-radius: 50em;
-    background-size: 200% 200%;
-	animation: gradient 15s ease infinite;
-    border: 4px solid transparent;
+  background: linear-gradient(white, white) padding-box, linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536) border-box;
+  border-radius: 50em;
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+  border: 4px solid transparent;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+footer {
+  margin: 0;
+  padding: 0;
+}
+footer .footerSeparator {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
+}
+footer .footerBox {
+  background-color: #737373;
+  color: white;
+  text-decoration: none;
+}
+footer .footerBox div ul li {
+  list-style-type: none;
+}
+footer .footerBox div ul li a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
 }
 
-/* FOOTER */
-
-body footer {
-    margin: 0;
-    padding: 0;
+@font-face {
+  font-family: "Caprasimo";
+  src: url(../assets/fonts/caprasimo-regular.ttf);
+}
+.caprasimo {
+  font-family: "Caprasimo";
 }
 
-.footerSeparator {
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.footerBox {
-    background-color: #737373;
-    color: white;
-    text-decoration: none;
-}
-
-.footerBox div ul li {
-    list-style-type: none;
-}
-
-.footerBox div ul li a {
-    text-decoration: none;
-    color: white;
-    list-style-type: none;
-}
+/*# sourceMappingURL=style.css.map */
