@@ -9,8 +9,8 @@ footer {
         background: linear-gradient(45deg, $gradient);
     }
     .footerBox {
-        background-color: #737373;
-        color: white;
+        background-color: $gray;
+        color: $white;
         text-decoration: none;
         div{
             ul{
@@ -18,7 +18,7 @@ footer {
                     list-style-type: none;
                     a{
                         text-decoration: none;
-                        color: white;
+                        color: $white;
                         list-style-type: none;
                     }
                 }

@@ -12,7 +12,7 @@ main{
 .gradientBox {
 	background: linear-gradient(45deg, $gradient);
 	background-size: 200% 200%;
-	animation: gradient 15s easse infinite;
+	animation: gradient 15s ease infinite;
 }
 
 @each $c-name, $c-colour in $c-colors {
@@ -20,10 +20,6 @@ main{
         background-color: $c-colour;
     }
 } 
-
-.secondBox {
-    background-color: #ececec;
-}
 
 .mainImage {
     border-radius: 0;

@@ -1,7 +1,7 @@
 @import "./variables";
 
 header {
-    background-color: white;
+    background-color: $white;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ header {
 .headerTitle {
     color: $gray;
     &:hover {
-        background: linear-gradient(-45deg, $gradient);
+        background: linear-gradient(-45deg, $gradient, $gray, $gray, $gray);
         -webkit-background-clip: text;
         color: transparent;
         background-size: 400% 400%;
