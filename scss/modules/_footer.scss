@@ -6,7 +6,7 @@ footer {
     .footerSeparator {
         width: 100%;
         height: 4px;
-        background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
+        background: linear-gradient(45deg, $gradient);
     }
     .footerBox {
         background-color: #737373;

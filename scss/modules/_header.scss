@@ -9,7 +9,7 @@ header {
 .headerTitle {
     color: $gray;
     &:hover {
-        background: linear-gradient(-45deg, $pear, $sandy, $orange, $coffe, #737373, #737373);
+        background: linear-gradient(-45deg, $gradient);
         -webkit-background-clip: text;
         color: transparent;
         background-size: 400% 400%;
