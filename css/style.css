@@ -27,7 +27,7 @@ header {
   }
 }
 .navItem {
-  color: rgb(0, 0, 0);
+  color: #000;
   font-size: 1.5vw;
   text-decoration: none;
 }
@@ -42,20 +42,89 @@ main {
 }
 
 .mainTitle {
-  color: white;
-}
-
-.mainTitleMD {
-  color: white;
-  background: #474747;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 2px transparent;
+  color: #fff;
 }
 
 .gradientBox {
   background: linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
   background-size: 200% 200%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 15s easse infinite;
+}
+
+.blueBox {
+  background-color: #0d6efd;
+}
+
+.indigoBox {
+  background-color: #6610f2;
+}
+
+.purpleBox {
+  background-color: #6f42c1;
+}
+
+.pinkBox {
+  background-color: #d63384;
+}
+
+.redBox {
+  background-color: #dc3545;
+}
+
+.orangeBox {
+  background-color: #FF785A;
+}
+
+.yellowBox {
+  background-color: #ffc107;
+}
+
+.greenBox {
+  background-color: #198754;
+}
+
+.tealBox {
+  background-color: #20c997;
+}
+
+.cyanBox {
+  background-color: #0dcaf0;
+}
+
+.blackBox {
+  background-color: #000;
+}
+
+.whiteBox {
+  background-color: #fff;
+}
+
+.gray-lightBox {
+  background-color: #ececec;
+}
+
+.grayBox {
+  background-color: #737373;
+}
+
+.gray-darkBox {
+  background-color: #343a40;
+}
+
+.sandyBox {
+  background-color: #FFAA5A;
+}
+
+.pearBox {
+  background-color: #C0D146;
+}
+
+.coffeBox {
+  background-color: #644536;
+}
+
+.dark-purpleBox {
+  background-color: #242038;
 }
 
 .secondBox {
@@ -63,7 +132,7 @@ main {
 }
 
 .mainImage {
-  border-radius: 0%;
+  border-radius: 0;
   border-width: 0;
 }
 
@@ -76,17 +145,17 @@ main {
 }
 
 .shopItem {
-  color: black;
+  color: #000;
 }
 .shopItem div .prevPrice {
-  color: rgb(177, 177, 177);
+  color: #adb5bd;
 }
 .shopItem:hover {
-  color: #8f8f8f;
+  color: #6c757d;
 }
 
 .btn-gradient {
-  background: linear-gradient(white, white) padding-box, linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536) border-box;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536) border-box;
   border-radius: 50em;
   background-size: 200% 200%;
   animation: gradient 15s ease infinite;
@@ -104,6 +173,10 @@ main {
     background-position: 0% 50%;
   }
 }
+.carousel-item div p {
+  text-shadow: 2px 2px 8px #000;
+}
+
 footer {
   margin: 0;
   padding: 0;
@@ -133,12 +206,6 @@ footer .footerBox div ul li a {
 }
 .caprasimo {
   font-family: "Caprasimo";
-}
-
-body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

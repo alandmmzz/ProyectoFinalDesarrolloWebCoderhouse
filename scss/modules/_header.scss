@@ -7,9 +7,9 @@ header {
 }
 
 .headerTitle {
-    color: #737373;
+    color: $gray;
     &:hover {
-        background: linear-gradient(-45deg, #C0D146, #FFAA5A, #FF785A, #644536, #737373, #737373);
+        background: linear-gradient(-45deg, $pear, $sandy, $orange, $coffe, #737373, #737373);
         -webkit-background-clip: text;
         color: transparent;
         background-size: 400% 400%;
@@ -30,7 +30,7 @@ header {
 }
 
 .navItem {
-    color: rgb(0, 0, 0);
+    color: $black;
     font-size: 1.5vw;
     text-decoration: none;
     &:hover {

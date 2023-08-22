@@ -1,5 +1,65 @@
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #ececec ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000;
 
-// FONTS VARIABLES
+$c-grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
 
+$blue:    #0d6efd ;
+$indigo:  #6610f2 ;
+$purple:  #6f42c1 ;
+$pink:    #d63384 ;
+$red:     #dc3545 ;
+$orange:  #FF785A ;
+$sandy:   #FFAA5A ;
+$yellow:  #ffc107 ;
+$pear:    #C0D146 ;
+$green:   #198754 ;
+$teal:    #20c997 ;
+$cyan:    #0dcaf0 ;
+$coffe:   #644536 ;
+$dark-purple: #242038 ;
+$gray: #737373;
 
-// COLOUR VARIABLES
+$c-colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "black":      $black,
+  "white":      $white,
+  "gray-light":  $gray-200,
+  "gray":       $gray,
+  "gray-dark":  $gray-800,
+  "sandy":  $sandy,
+  "pear":  $pear,
+  "coffe":  $coffe,
+  "dark-purple":  $dark-purple
+);
+
+// MAIN GRADIENT 
+ 
+$gradient: ($pear, $pear, $sandy, $orange, $coffe, $coffe);
