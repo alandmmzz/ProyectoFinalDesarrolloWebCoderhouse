@@ -34,7 +34,6 @@ header {
     font-size: 1.5vw;
     text-decoration: none;
     &:hover {
-        font-weight: bolder;
-        font-size: 1.4vw;
+        text-shadow: 1px 1px 15px $black;
     }
 }
