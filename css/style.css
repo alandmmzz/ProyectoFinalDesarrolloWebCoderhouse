@@ -53,22 +53,6 @@ main .errorPage {
   animation: gradient 15s ease infinite;
 }
 
-.blueBox {
-  background-color: #0d6efd;
-}
-
-.indigoBox {
-  background-color: #6610f2;
-}
-
-.purpleBox {
-  background-color: #6f42c1;
-}
-
-.pinkBox {
-  background-color: #d63384;
-}
-
 .redBox {
   background-color: #dc3545;
 }
@@ -77,20 +61,8 @@ main .errorPage {
   background-color: #FF785A;
 }
 
-.yellowBox {
-  background-color: #ffc107;
-}
-
 .greenBox {
   background-color: #198754;
-}
-
-.tealBox {
-  background-color: #20c997;
-}
-
-.cyanBox {
-  background-color: #0dcaf0;
 }
 
 .blackBox {
@@ -244,6 +216,16 @@ main .errorPage {
     border-radius: 50%;
   }
 }
+.accordion {
+  --bs-accordion-btn-focus-border-color: $black;
+  --bs-accordion-btn-focus-box-shadow: $black;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #ececec;
+}
+
 footer {
   margin: 0;
   padding: 0;

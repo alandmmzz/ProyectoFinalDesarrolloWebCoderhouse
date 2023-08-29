@@ -132,7 +132,7 @@ main{
       transform: rotatez(-45deg) translateY(-35px) translateX(-35px);
     }
   }
-  
+
   @keyframes aniArrow02 {
     0% {
       transform:translateX(45px);
@@ -149,5 +149,17 @@ main{
     100% {    
       border:solid 2px white; 
       border-radius:50%;
+    }
+  }
+
+  .accordion {
+    --bs-accordion-btn-focus-border-color: $black;
+    --bs-accordion-btn-focus-box-shadow: $black;
+  }
+
+  .accordion-button {
+    &:not(.collapsed) {
+        color: $black;
+        background-color: map-get($map: $c-colors, $key: "gray-light");
     }
   }
