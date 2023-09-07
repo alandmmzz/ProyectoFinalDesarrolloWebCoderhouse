@@ -55,50 +55,74 @@ main .errorPage {
 
 .redBox {
   background-color: #dc3545;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .orangeBox {
   background-color: #FF785A;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .greenBox {
   background-color: #198754;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .blackBox {
   background-color: #000;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .whiteBox {
   background-color: #fff;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .gray-lightBox {
   background-color: #ececec;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .grayBox {
   background-color: #737373;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .gray-darkBox {
   background-color: #343a40;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .sandyBox {
   background-color: #FFAA5A;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .pearBox {
   background-color: #C0D146;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .coffeBox {
   background-color: #644536;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .dark-purpleBox {
   background-color: #242038;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .mainImage {
@@ -147,73 +171,29 @@ main .errorPage {
   text-shadow: 2px 2px 8px #000;
 }
 
-.arrow {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  transition: 0.5s;
-  overflow: hidden;
+.cardPromotion {
+  transition: transform 0.2s;
 }
-.arrow:hover {
-  border: solid 2px white;
-  border-radius: 50%;
+.cardPromotion:hover {
+  transform: scale(1.05);
 }
-.arrow:hover:before {
-  animation: aniArrow01 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
-}
-.arrow:hover:after {
-  animation: aniArrow02 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
-}
-.arrow:after {
-  position: absolute;
-  display: block;
-  content: "";
-  color: white;
-  width: 20px;
-  height: 15px;
-  top: -1px;
-  border-bottom: solid 2px;
-  transform: translatex(4px);
-}
-.arrow:before {
-  position: absolute;
-  display: block;
-  content: "";
-  color: white;
-  width: 8px;
-  height: 8px;
-  border-top: solid 2px;
-  border-left: solid 2px;
-  top: 50%;
-  left: 2px;
-  transform-origin: 0% 0%;
-  transform: rotatez(-45deg);
+.cardPromotion div .promotionText {
+  background: linear-gradient(-45deg, #C0D146, #C0D146, #FFAA5A, #FF785A, #644536, #644536);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400% 400%;
+  animation: gradientLogo 15s ease infinite;
 }
 
-@keyframes aniArrow01 {
+@keyframes gradientLogo {
   0% {
-    transform: rotatez(-45deg) translateY(30px) translateX(30px);
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
   100% {
-    transform: rotatez(-45deg) translateY(-35px) translateX(-35px);
-  }
-}
-@keyframes aniArrow02 {
-  0% {
-    transform: translateX(45px);
-  }
-  100% {
-    transform: translateX(-44px);
-  }
-}
-@keyframes borderAni {
-  0% {
-    border: solid 2px white;
-  }
-  100% {
-    border: solid 2px white;
-    border-radius: 50%;
+    background-position: 0% 50%;
   }
 }
 .accordion {
