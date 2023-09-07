@@ -23,7 +23,6 @@ Welcome to Nirvana! This website is made for CoderHouse as a Final Proyect. It w
 Before you can run this project locally or deploy it, make sure you have the following prerequisites:
 
 - **Bootstrap**: This project uses Bootstrap for its front-end. You can include it via CDN or by downloading the Bootstrap CSS and JS files.
- git clone https://github.com/yourusername/yoga-spirituality-website.git
 
 ### Usage
 Explore the website to discover yoga classes, meditation sessions, and spiritual resources.
