@@ -8,8 +8,6 @@ Welcome to Nirvana! This website is made for CoderHouse as a Final Proyect. It w
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
