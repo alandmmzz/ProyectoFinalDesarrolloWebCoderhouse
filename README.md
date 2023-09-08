@@ -8,7 +8,7 @@ Welcome to Nirvana! This website is made for CoderHouse as a Final Proyect. It w
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
-- [GitHub Pages and 404 Error](#github-pages)
+- [GitHub Pages and 404 Error](#github-pages-and-404-error)
 
 ## Features
 
