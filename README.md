@@ -8,6 +8,7 @@ Welcome to Nirvana! This website is made for CoderHouse as a Final Proyect. It w
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
+- [GitHub Pages and 404 Error](#github-pages)
 
 ## Features
 
@@ -28,3 +29,7 @@ Before you can run this project locally or deploy it, make sure you have the fol
 Explore the website to discover yoga classes, meditation sessions, and spiritual resources.
 Sign up for classes or sessions.
 Schedule private sessions or consultations with our instructors.
+
+### GitHub Pages and 404 Error
+Link to GitHub Pages: https://alandmmzz.github.io/PFMartinez/index.html
+Link to view 404 error: https://alandmmzz.github.io/PFMartinez/errors/404.html
